@@ -10,6 +10,7 @@
   background-color: #F2F2F2;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
 }
 .logo {
   background-size: contain;
@@ -307,6 +308,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
   margin-bottom: 20px;
 }
 .social-icons {
