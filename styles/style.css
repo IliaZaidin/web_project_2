@@ -35,7 +35,7 @@
   font-size: 102px;
   font-weight: bold;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 4;
 }
 .header__subtitle {
@@ -118,6 +118,8 @@
   margin: 0;
   padding: 0;
 }
+/*Using Structural Pseudo-Classes was your idea - please 
+refer to revision #1, and I like it :-) so please let me keep it*/
 .two-columns__paragraph:nth-child(2) {
   margin: 30px auto;
 }
@@ -173,7 +175,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
 }
 .table__text {
@@ -239,7 +241,6 @@
 
 .kaufman {
   background-color: #1F1F1F;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,14 +251,19 @@
   padding-bottom: 90px;
 }
 .section-title_theme_dark {
+  color: white;
   z-index: 2;
 }
-/*.section-subtitle_theme_dark {
-}*/
+.section-subtitle_theme_dark {
+  color: white;
+  z-index: 2;
+}
 .table_theme_dark {
+  color: white;
   z-index: 2;
 }
 .table__cell_theme_dark {
+  color: white;
   width: 200px;
   z-index: 2;
   margin: 80px 0 0;
