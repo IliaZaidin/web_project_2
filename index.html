@@ -18,7 +18,7 @@
       <h1 class="header__title">Learning How to Learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning
         techniques that you can apply to your daily life.
-        <a class="header__link" href="#">Learn more →</a>
+        <a class="header__link link-transition" href="#">Learn more →</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="girl in boots">
       <div class="header__square-pic rotation"></div>
@@ -89,14 +89,18 @@
       <section class="video">
         <h2 class="section-title">TED talks</h2>
         <p class="section-subtitle">For lovers of procrastination</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
-          <iframe class="video__iframe" width="727" height="409" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <div class="two-columns">
@@ -117,7 +121,7 @@
       <section class="feynman">
         <h2 class="feynman__title">The Feynman Technique</h2>
         <p class="feynman__subtitle">Learn without forgetting</p>
-        <a class="feynman__link" href="#">More →</a>
+        <a class="feynman__link link-transition" href="#">More →</a>
         <div class="feynman__picture"></div>
       </section>
       <section class="digits">
@@ -178,7 +182,7 @@
           <p class="khan__quote-author-subline">Filmmaker</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book-2.png" alt="book by salman khan">
-            <a class="khan__buy-link" href="#">Buy book →</a>
+            <a class="khan__buy-link link-transition" href="#">Buy book &rarr;</a>
           </div>
 
         </div>
@@ -232,7 +236,22 @@
         <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Kaufman's triangle">
       </section>
       <section class="resources">
-
+        <h2 class="section-title">Useful resources</h2>
+        <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+        <ul class="resources__logo-zone">
+          <li>
+            <a class="link-transition" href="https://www.ted.com/" target="_blank"><img class="resources__logo" src="./images/resources-tedED.png" alt="TEDEd logo"></a>
+          </li>
+          <li>
+            <a class="link-transition" href="https://medium.com/" target="_blank"><img class="resources__logo" src="./images/resources-Medium.png" alt="Medium logo"></a>
+          </li>
+          <li>
+            <a class="link-transition" href="https://www.dezeen.com/" target="_blank"><img class="resources__logo" src="./images/resources-dezeen.png" alt="dezeen logo"></a>
+          </li>
+          <li>
+            <a class="link-transition" href="https://www.goodreads.com/" target="_blank"><img class="resources__logo" src="./images/resources-goodreads.png" alt="goodreads logo"></a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -244,21 +263,21 @@
         <div class="footer__column footer__column_content_about">
           <h2 class="footer__column-heading">About Practicum by Yandex</h2>
           <ul class="footer__list">
-            <li><a class="footer__column-link" href="#">Home page</a></li>
-            <li><a class="footer__column-link" href="#">Mission</a></li>
-            <li><a class="footer__column-link" href="#">Professions</a></li>
+            <li><a class="footer__column-link link-transition" href="#">Home page</a></li>
+            <li><a class="footer__column-link link-transition" href="#">Mission</a></li>
+            <li><a class="footer__column-link link-transition" href="#">Professions</a></li>
           </ul>
         </div>
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Social media</h2>
           <ul class="footer__list">
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link-transition" href="https://www.facebook.com/" target="_blank">
                 <img class="footer__social-icons" src="./images/facebook_white.svg" alt="Facebook icon">
                 Facebook</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link-transition" href="https://www.instagram.com/" target="_blank">
                 <img class="footer__social-icons" src="./images/instagram_white.svg" alt="Instagram icon">
                 Instagram</a>
             </li>

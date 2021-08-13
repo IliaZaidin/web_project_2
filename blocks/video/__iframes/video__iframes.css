@@ -1,8 +1,8 @@
 .video__iframes {
-  width: 1050px;
+  list-style: none;
+  margin: 0;
+  padding: 50px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  margin: 50px 0 0;
-  overflow: visible;
+  gap: 20px;
 }

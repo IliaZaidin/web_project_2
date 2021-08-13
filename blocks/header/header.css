@@ -5,7 +5,6 @@
 @import url(./__square-pic/header__square-pic.css);
 
 .header {
-    height: 100vh;
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;

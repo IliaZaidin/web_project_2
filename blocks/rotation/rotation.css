@@ -7,9 +7,5 @@
     }
 }
  .rotation {
-     animation-name: rotation;
-     animation-duration: 20s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
-     animation-fill-mode: none;
+    animation: rotation 20s infinite linear none;
  }
