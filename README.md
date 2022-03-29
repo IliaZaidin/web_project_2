@@ -5,4 +5,4 @@ advanced HTML semantics, flexbox, positioning elements, file structure and paths
 
 Technologies used: HTML, CSS.
 
-Link to the site: https://iliazaidin.github.io/web_project_2/
+[Link to the page](https://iliazaidin.github.io/web_project_2/)
